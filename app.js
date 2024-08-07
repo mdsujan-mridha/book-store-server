@@ -10,7 +10,7 @@ const bodyParser = require("body-parser");
 app.use(express.json());
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: ['https://book-sote-client.vercel.app','http://localhost:3000'],
     'Content-Type': 'Authorization',
     "Content-type": "application/json",
     credentials: true,            //access-control-allow-credentials:true
